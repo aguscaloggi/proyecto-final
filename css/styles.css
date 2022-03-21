@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
 ul,
 footer {
   list-style-type: none;
@@ -31,14 +41,6 @@ a,
   text-decoration: none;
 }
 
-* {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #333;
-  text-decoration: none;
-}
-
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: rgb(58, 57, 57);
@@ -47,18 +49,10 @@ li a:hover {
 #logo {
   position: absolute;
   width: 105px;
-  height: 43px;
-  left: 10px;
-  top: 10px;
+  height: 47px;
+  left: 0px;
+  top: 0px;
   margin: 0px 15px 15px 0px;
-}
-
-#logo-footer {
-  position: absolute;
-  width: 105px;
-  height: 43px;
-  right: 10px;
-  bottom: 10px;
 }
 
 /* Esconde las scrollbar */
@@ -71,4 +65,36 @@ footer {
   bottom: 0;
   padding: 14px 16px;
   background-color: #333;
+}
+
+#logo-footer {
+  position: absolute;
+  width: 105px;
+  height: 48px;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* Contacto */
+input[type="text"] {
+  height: 16px;
+  padding: 12px 9px;
+  margin: 6px 2px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  background-color: lightgray;
+}
+
+textarea {
+  margin: 6px 2px 0px 0px;
+}
+
+.text-publicar {
+  margin: 5px;
+}
+
+.submit-publicar {
+  margin: 0px 2px;
 }
